@@ -50,9 +50,3 @@ Create a .env file in backend:
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 OPENAI_API_KEY=your_api_key (if used)
-
-
-
-(Add your project screenshots here)
-
-Future Improvements
