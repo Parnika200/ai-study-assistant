@@ -1,8 +1,8 @@
 import axios from "axios";
 
 const API = axios.create({
-  //baseURL: "http://localhost:5000/api"
-  baseURL: "https://ai-study-assistant-0mlt.onrender.com/api"
+  baseURL: "http://localhost:5000/api"
+  //baseURL: "https://ai-study-assistant-0mlt.onrender.com/api"
 });
 
 // ✅ Auto attach token to every request

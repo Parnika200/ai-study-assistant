@@ -1,4 +1,4 @@
-const API_BASE = import.meta.env.VITE_API_URL || "https://ai-study-assistant-0mlt.onrender.com";//"http://localhost:5000";
+const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:5000"//"https://ai-study-assistant-0mlt.onrender.com";
 
 /**
  * Fetches AI-generated quiz questions for a document.

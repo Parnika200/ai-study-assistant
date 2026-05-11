@@ -8,7 +8,7 @@ function Flashcards() {
 
   const [flashcards, setFlashcards] = useState([]);
   const [flipped, setFlipped] = useState({});
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+  
   useEffect(() => {
     fetchFlashcards();
   }, []);
